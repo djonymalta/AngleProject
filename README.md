@@ -96,7 +96,16 @@ Defina uma senha para o usuário postgresql:
 
  	$ postgres=# \password postgres
   
+  **OBS**: Pode ser necessário dar permissão de acesso em seu arquivo pg_hba.conf. Edite-o usando o comando abaixo e deixando as permissões em trust como no 
+  exemplo:
   
+  	$ sudo nano /etc/postgresql/(versão)/main/pg_hba.conf 
+	
+Exemplo:
+local   all             all                                     trust
+local   all             postgres                                trust
+
+
   
 Ultimos passos:
 ==================
