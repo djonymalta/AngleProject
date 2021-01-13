@@ -1,6 +1,6 @@
 
 
-Sejam Bem Vindos ao Angle Project v1.o
+Sejam Bem Vindos ao Angle Project v1.0
 ==================
 O que será necessário ter:
 
